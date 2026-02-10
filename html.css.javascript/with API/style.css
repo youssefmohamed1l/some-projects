@@ -1,0 +1,60 @@
+/* ---------- PUBLIC STYLE -------- */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+
+/* ---------- CUSTOM STYLE -------- */
+
+.parent{
+    background: linear-gradient( to right ,rgb(143, 109, 0) 0% , rgb(0, 146, 208) 100%);
+    padding: 2rem;
+}
+
+ul{
+    padding: .5rem;
+    border: 5px solid rgb(120, 182, 89);
+}
+.parent li{
+    padding: .5rem;
+    cursor: pointer;
+}
+.parent li:not(:last-child){
+    margin-bottom: .5rem;
+    border-bottom: 2px solid rgb(130, 127, 69);
+}
+
+.parent li:hover{
+    background-color: rgb(42, 195, 129);
+    border-radius: 10px;
+}
+
+.parent li h3{
+    color: #fff;
+    margin: 0;
+}
+.parent li h6{
+    color: #bdbdbd;
+}
+
+.active{
+    background-color: rgb(42, 195, 129);
+    border-radius: 10px;
+}
+.content-right{
+    padding: 1rem;
+    background-color: rgb(207, 207, 207);
+}
+
+.post{
+    background-color: #b8b8b8;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    box-shadow: 0 0 5px 1px rgb(67, 67, 67);
+}

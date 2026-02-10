@@ -1,0 +1,529 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family:sans-serif;
+}
+.section1{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(19, 19, 19, 0.966);
+    display: flex;
+    flex-direction: column;
+}
+h2{
+    text-transform: capitalize;
+    padding-right: 100px;
+    letter-spacing: 1px;
+    font-size: 35px;
+}
+span{
+    color: rgba(255, 0, 0, 0.838);
+}
+.head{
+    padding-left: 100px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.head ul li{
+    margin: 20px;
+    display: inline-block;
+    list-style:none;
+    font-size: 20px;
+    text-decoration: none;
+}
+.head ul li a{
+    text-transform: capitalize;
+    transition: .5s;
+}
+.head ul li a:hover ,.active{
+    color: rgba(255, 0, 0, 0.838);
+}
+.head ul li a{
+    text-decoration: none;
+}
+button{
+    background-color: rgba(255, 0, 0, 0.838);
+    font-size: 20px;
+    border: 2px solid transparent;
+    padding: 6px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    transition: .5s;
+    cursor: pointer;
+    margin-right: 20px;
+}
+button:hover{
+    background-color: transparent;
+    border: 2px solid rgba(255, 0, 0, 0.838);
+}
+#menu{
+    display: none;
+}
+#menu span{
+    display: block;
+    width: 20px;
+    height: 4px;
+    background-color: rgb(237, 243, 247);
+    margin: 5px;
+    transform-origin: 0 0;
+    transition: .5s;
+
+}
+#menu.helo span:nth-child(1){
+    transform: translate(4px,1.5px) rotate(45deg);
+}
+#menu.helo span:nth-child(2){
+    opacity: 0;
+    transform: translatex(15px) rotate(45deg);
+}
+#menu.helo span:nth-child(3){
+    transform: translatey(1px) rotate(-45deg);
+}
+#menu.helo span{
+    background-color: rgb(198, 46, 46);
+    width: 30px;
+    height: 6px;
+    transition: .5s;
+}
+.content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: space-between;
+}
+.contenttext{
+    margin-left: 100px;
+    width: 30%;
+}
+.content h5{
+    letter-spacing: 1px;
+    color: rgb(255, 89, 0);
+}
+.content h1{
+    letter-spacing: 1px;
+    font-size: 50px;
+    padding:13px 0;
+    text-transform: capitalize;
+}
+.content h4{
+    letter-spacing: 1px;
+}
+.content button{
+    margin: 20px 0;
+}
+.picture a{
+    text-decoration: none;
+}
+.picture img{
+    margin: 0 5px;
+    transition:.5s;
+}
+.picture img:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+.contentpicture{
+    position: relative;
+    width: 30%;
+    height: 90%;
+}
+.contentpicture img{
+    position: absolute;
+    height: 100%; 
+    transform: translateY(31px);
+    bottom: 0;
+    right: 0;
+    transition: right .5s;
+}
+.contentpicture:hover .background{
+    right: 20px;
+}
+.contentpicture:hover .man{
+    right: 50px;
+}
+
+/*--------------------------------2222222222222-----------------------------------*/
+
+.section2{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.885);
+    display: flex;  
+    overflow: hidden;
+}
+.section2 .contentpicture2{
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+.section2 .contentpicture2 img{
+    height: 370px;   
+    margin-top: 30px;
+    position: absolute;
+    right: 0;
+    margin-right: 100px;
+}
+.contenttext2{
+    width: 50%;
+}
+.contenttext22{
+    margin: 110px;
+}
+.contenttext22 h1{
+    font-size: 50px;
+}
+.contenttext22 h3{
+    margin: 15px 0;
+    font-size: 22px;
+    text-transform: capitalize;
+}
+.contenttext22 h6{
+    width: 70%;
+    font-size: 13px;
+    color: rgb(181, 202, 238);
+}
+/*-----------------------------------333333333333333----------------------------------*/
+
+.section3{
+    background-color: rgba(0, 0, 0, 0.966);
+    overflow-x: hidden;
+}
+.section3 h1{
+    padding: 30px;
+    font-size: 50px;
+    text-align: center;
+}
+.box{   
+    display: flex;
+    justify-content: space-around;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.box .card{
+    background-color: rgb(39, 36, 36);
+    width: 240px;
+    height: 240px;
+    padding: 10px;
+    text-align: center;
+}
+.box i{
+    font-size: 40px;
+    color: red;
+}
+.box h2{
+    margin: 7px 0;
+    width: 100%;
+    text-align: center;
+}
+.box p{
+    color: rgb(181, 202, 238);
+}
+
+/*------------------------------4444444444444444444------------------------------*/
+
+.section4{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.885); 
+}
+.content4 h1{
+    font-size: 60px;
+    padding: 50px;
+}
+.contentt{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.contentt .contentpicture41{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap ;
+    margin-left: 20px;
+
+}
+.contentt .contentpicture41 div{
+    width: 100px;  
+    height: 100px;
+    margin: 20px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 50%;
+}
+.contentpicture41 img{
+    width: 80px;
+}
+.contentt .contentpicture42{
+    width: 50%;
+}
+.cotentpicture42 img{
+    height: 400px;
+    margin-right: 150px;
+    padding-bottom: 10px;
+}
+
+/*----------------------555555555-----------------------*/
+
+.section5{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.966);
+    text-align: center;
+}
+.content5{
+    padding: 10px;
+}
+.content5 h1{
+    font-size: 50px;
+    text-transform: capitalize;
+}
+.content5 h3{
+    margin: 10px 0;
+    font-size: 25px;
+    color: rgb(181, 202, 238);
+}
+.content5 h5{
+    font-size: 15px;
+    color: rgb(181, 202, 238);
+}
+
+@media screen and (max-width: 599px) {
+    .head{
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        padding-left: 30px;
+        background-color: black;
+        border-bottom:3px solid rgb(62, 15, 15);
+        height: 82px;
+    }
+    .head h2{
+        font-size: 30 px;
+        padding-right: 0px;
+    }
+    .head ul{
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: rgb(46, 45, 45);
+        width: 100%;
+        height: 100%;
+    }
+    .head ul.helo{
+        display: block;
+    }
+    .head ul li{
+        display: block;
+        text-align: center;
+        margin: 50px;
+    }
+    #subscripe{
+        display: none;
+    }
+    #menu{
+        display: block; 
+        margin-right: 20px;
+    }
+    #menu span{
+        display: block;
+    }
+    .contenttext{
+        margin-left: 30px;
+        width: 70%;
+    }
+    .contenttext h1{
+        padding-bottom: 15px 0;
+    }
+    .contenttext h4{
+        font-size: 13px;
+    }
+    .contenttext button{
+        margin: 40px 0;
+    }
+    .contentpicture{
+        display: none;
+    }
+    .picture{
+        margin-top: 15px;
+    }
+    .picture a{
+        margin-right: 8px;
+    }
+
+    /* *******************************2222222222********************************** */
+    .contenttext2{
+        width: 100%;
+    }
+    .contentpicture2{
+        display: none;
+    }
+    .contenttext22{
+        margin: 20px 30px;
+    }
+    .contenttext22 h1{
+        width: 100%;
+    }
+
+    /* *******************************33333333333******************************** */
+
+    .section3 h1{
+        padding: 10px 30px;
+    }
+    .box{
+        flex-wrap: wrap;
+        margin: 0px 30px;
+        margin-bottom: 10px;
+    }
+    .card{
+        margin:10px;
+    }
+
+    /* ********************************4444444444******************************** */
+
+    .content4 h1{
+        padding: 10px 30px;
+    }
+    .contentt {
+        padding-bottom: 10px;
+    }
+    .contentt .contentpicture41{
+        width: 100%;
+    }
+    .cotentpicture42{
+        display: none;
+    }
+    .contentt .contentpicture41 div {
+        width: 80px;
+        height: 80px;
+        margin: 10px;
+    }
+    .contentpicture41 img {
+        width: 66px;
+    }
+}
+
+/* ------------------------------الحجم التاني-------------------------------- */
+
+@media screen and (min-width: 600px) and (max-width: 800px) {
+    .head{
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        padding-left: 30px;
+        background-color: black;
+        border-bottom:3px solid rgb(62, 15, 15);
+        height: 82px;
+    }
+    .head h2{
+        font-size: 30 px;
+        padding-right: 0px;
+    }
+    .head ul{
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: rgb(46, 45, 45);
+        width: 100%;
+        height: 100%;
+    }
+    .head ul.helo{
+        display: block;
+    }
+    .head ul li{
+        display: block;
+        text-align: center;
+        margin: 50px;
+    }
+    #subscripe{
+        display: none;
+    }
+    #menu{
+        display: block; 
+        margin-right: 20px;
+    }
+    #menu span{
+        display: block;
+    }
+    .contenttext{
+        margin-left: 30px;
+        width: 70%;
+    }
+    .contenttext h1{
+        padding-bottom: 15px 0;
+    }
+    .contenttext h4{
+        font-size: 13px;
+    }
+    .contenttext button{
+        margin: 40px 0;
+    }
+    .contentpicture{
+        display: none;
+    }
+    .picture{
+        margin-top: 15px;
+    }
+    .picture a{
+        margin-right: 8px;
+    }
+
+    /* *******************************2222222222********************************** */
+    .contenttext2{
+        width: 100%;
+    }
+    .contentpicture2{
+        display: none;
+    }
+    .contenttext22{
+        margin: 20px 30px;
+    }
+    .contenttext22 h1{
+        width: 100%;
+    }
+
+    /* *******************************33333333333******************************** */
+
+    .section3 h1{
+        padding: 10px 30px;
+    }
+    .box{
+        flex-wrap: wrap;
+        margin: 0px 30px;
+        margin-bottom: 10px;
+    }
+    .card{
+        margin:10px;
+    }
+
+    /* ********************************4444444444******************************** */
+
+    .content4 h1{
+        padding: 10px 30px;
+    }
+    .contentt {
+        padding-bottom: 10px;
+    }
+    .contentt .contentpicture41{
+        width: 100%;
+    }
+    .cotentpicture42{
+        display: none;
+    }
+    .contentt .contentpicture41 div {
+        width: 80px;
+        height: 80px;
+        margin: 10px;
+    }
+    .contentpicture41 img {
+        width: 66px;
+    }
+}
