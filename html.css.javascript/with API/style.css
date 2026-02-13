@@ -12,13 +12,14 @@ ul{
 /* ---------- CUSTOM STYLE -------- */
 
 .parent{
-    background: linear-gradient( to right ,rgb(143, 109, 0) 0% , rgb(0, 146, 208) 100%);
-    padding: 2rem;
+    background: linear-gradient( to right ,rgb(143, 109, 0) 0% , rgb(92, 70, 0));
+    padding: 1.5rem;
 }
 
 ul{
     padding: .5rem;
-    border: 5px solid rgb(120, 182, 89);
+    border: 5px solid rgb(165, 165, 18);
+    border-radius: 8px;
 }
 .parent li{
     padding: .5rem;
@@ -30,11 +31,11 @@ ul{
 }
 
 .parent li:hover{
-    background-color: rgb(42, 195, 129);
+    background-color: rgb(90, 69, 0);
     border-radius: 10px;
 }
 
-.parent li h3{
+.parent li h4{
     color: #fff;
     margin: 0;
 }
@@ -43,14 +44,17 @@ ul{
 }
 
 .active{
-    background-color: rgb(42, 195, 129);
+    background-color: rgb(90, 69, 0);
     border-radius: 10px;
+}
+.content-left{
+    padding-left: 0 !important;
 }
 .content-right{
     padding: 1rem;
     background-color: rgb(207, 207, 207);
+    border-radius: 4px;
 }
-
 .post{
     background-color: #b8b8b8;
     padding: 1rem;

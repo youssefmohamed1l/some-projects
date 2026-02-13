@@ -70,19 +70,18 @@ button:hover{
     margin: 5px;
     transform-origin: 0 0;
     transition: .5s;
-
 }
-#menu.helo span:nth-child(1){
+#menu.content-menu span:nth-child(1){
     transform: translate(4px,1.5px) rotate(45deg);
 }
-#menu.helo span:nth-child(2){
+#menu.content-menu span:nth-child(2){
     opacity: 0;
     transform: translatex(15px) rotate(45deg);
 }
-#menu.helo span:nth-child(3){
+#menu.content-menu span:nth-child(3){
     transform: translatey(1px) rotate(-45deg);
 }
-#menu.helo span{
+#menu.content-menu span{
     background-color: rgb(198, 46, 46);
     width: 30px;
     height: 6px;
@@ -140,10 +139,10 @@ button:hover{
     right: 0;
     transition: right .5s;
 }
-.contentpicture:hover .background{
+.content:hover .background{
     right: 20px;
 }
-.contentpicture:hover .man{
+.content:hover .man{
     right: 50px;
 }
 
@@ -186,6 +185,7 @@ button:hover{
     font-size: 13px;
     color: rgb(181, 202, 238);
 }
+
 /*-----------------------------------333333333333333----------------------------------*/
 
 .section3{
@@ -231,7 +231,7 @@ button:hover{
     background-color: rgba(0, 0, 0, 0.885); 
 }
 .content4 h1{
-    font-size: 60px;
+    font-size: 50px;
     padding: 50px;
 }
 .contentt{
@@ -256,8 +256,15 @@ button:hover{
     background-color: white;
     border-radius: 50%;
 }
+.contentpicture41 div{
+    transition: .3s;
+}
 .contentpicture41 img{
     width: 80px;
+}
+.contentpicture41 div:hover{
+    transform: translateY(-10px);
+    cursor: pointer;
 }
 .contentt .contentpicture42{
     width: 50%;
@@ -282,15 +289,17 @@ button:hover{
     font-size: 50px;
     text-transform: capitalize;
 }
-.content5 h3{
+.content5 h4{
     margin: 10px 0;
-    font-size: 25px;
+    font-size: 17px;
     color: rgb(181, 202, 238);
 }
-.content5 h5{
-    font-size: 15px;
-    color: rgb(181, 202, 238);
+.content5 h6{
+    font-size: 13px;
+    color: rgb(148, 148, 148);
 }
+
+/*----- SIZES -----*/
 
 @media screen and (max-width: 599px) {
     .head{
@@ -316,7 +325,7 @@ button:hover{
         width: 100%;
         height: 100%;
     }
-    .head ul.helo{
+    .head ul.content-menu{
         display: block;
     }
     .head ul li{
@@ -358,6 +367,7 @@ button:hover{
     }
 
     /* *******************************2222222222********************************** */
+
     .contenttext2{
         width: 100%;
     }
@@ -435,7 +445,7 @@ button:hover{
         width: 100%;
         height: 100%;
     }
-    .head ul.helo{
+    .head ul.content-menu{
         display: block;
     }
     .head ul li{
@@ -477,6 +487,7 @@ button:hover{
     }
 
     /* *******************************2222222222********************************** */
+
     .contenttext2{
         width: 100%;
     }

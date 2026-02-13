@@ -5,6 +5,6 @@ menu.onclick = function(){
     //لما اضغط علي المنيو خليلي الاكشن هالو
     //لما اضغط علي المنيو خليلي المنيو هالو
 
-    action.classList.toggle("helo");
-    menu.classList.toggle("helo");
+    action.classList.toggle("content-menu");
+    menu.classList.toggle("content-menu");
 }

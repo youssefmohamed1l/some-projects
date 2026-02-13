@@ -38,7 +38,7 @@ function get_users(id) {
             for (user of users) {
                 ul.innerHTML += `
                 <li class="li ${user.id == 1 ? 'active' : ''}"  onclick="action(${user.id}, this)">
-                    <h3>${user.name}</h3>
+                    <h4>${user.name}</h4>
                  <h6>${user.email}</h6>
                 </li>
             `

@@ -59,7 +59,7 @@ body{
     display: flex;
     align-items: center;
     gap: 40px;
-    transition: .5s;
+    transition: .3s;
 }
 .minbox a:hover , .minbox .active , .datainfo .box:hover , td:hover{
     background-color: #ffffff55;
@@ -68,6 +68,7 @@ body{
     position: absolute;
     bottom: 0;
     width: 100%;
+    margin-bottom: 1rem;
 }
 .logout a{
     background-color: #a00;
